@@ -19,7 +19,7 @@ def add_task():
     tasks = load_tasks()
     tasks.append({"task": task})
     save_tasks(tasks)
-    print("✅ Task added successfully!")
+    print("Task added successfully!")
 
 
 def view_tasks():
@@ -102,4 +102,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
